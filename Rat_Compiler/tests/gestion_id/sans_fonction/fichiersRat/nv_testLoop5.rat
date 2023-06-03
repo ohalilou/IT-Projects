@@ -1,0 +1,9 @@
+main{
+    int h = 0;
+    h : loop {
+        int h = 4 ;
+        if (h=24){ break k;}
+        print h;
+        h = (h+1);
+    }
+}

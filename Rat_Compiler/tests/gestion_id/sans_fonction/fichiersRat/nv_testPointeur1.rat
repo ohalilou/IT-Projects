@@ -1,0 +1,11 @@
+main{
+    int a = 9;
+    int b = 10;
+    int * px = (new int);
+    (* px) = 42;
+    print (*px);
+    int x = ((a<b) ? 1 : 2);
+    px = &x;
+    int y = (*px);
+    print y;
+}

@@ -1,0 +1,7 @@
+main {
+    rat * r =(new rat); 
+    (*r) = [3/5];
+    rat h = [4/2];
+    r = h;
+
+}

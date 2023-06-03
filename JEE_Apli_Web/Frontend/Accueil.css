@@ -1,0 +1,90 @@
+.principale-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #f0f0f000; /* Replace with your desired background color */
+}
+
+.principale-header p {
+  margin: 0;
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
+.principale-header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.principale-header nav ul li {
+  margin-left: 10px; /* Adjust the spacing between list items */
+}
+
+.principale-header nav ul li a {
+  text-decoration: none;
+  color: #000; /* Replace with your desired link color */
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+#carrousel {
+  width: 700px;
+  height: 550px;
+  border:solid 4px #FFF;
+  box-shadow: 0 0 14px rgba(0,0,0,0.3);
+  position: relative;
+  overflow: hidden;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#container {
+  width: 700px;
+  height: 550px;
+  position: relative;
+}
+.photo{
+  width: 700px;
+  height: 550px;
+  margin: 0 auto;
+  display: inline-block;
+  background-size: cover;
+}
+.bouton{
+  position: absolute;
+  width: 70px;
+  cursor: pointer;
+  top: 260px;
+
+}
+
+#g{
+  left: 0;
+  opacity: 0.4;
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+#d{
+  right: 0;
+  opacity: 0.4;
+  transform: rotate(180deg);
+  transition: all 0.3s ease;
+}
+
+#g:hover{
+  transform: rotate(0deg) scale(1.1);
+  opacity:1;
+  transition: all 0.3s ease;
+
+}
+
+#d:hover{
+  transform: rotate(180deg) scale(1.1);
+  opacity:1;
+  transition: all 0.3s ease;  
+}
+  
