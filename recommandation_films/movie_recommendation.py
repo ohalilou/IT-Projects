@@ -8,7 +8,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 #Data Pre-processing
 
 #loading csv file to pandas dataframe
-movie_data = pd.read_csv('D:\Python for Geek\Chapter 1\movies.csv')
+movie_data = pd.read_csv('C:\Users\hlilo\IT-Projects\recommandation_films\movies.csv')
 #printing first five rows of the dataframe
 
 print(movie_data.head())
